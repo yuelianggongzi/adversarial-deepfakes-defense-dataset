@@ -1,7 +1,7 @@
-# adversarial-deepfakes-defense-dataset
-
 
 # Adversarial Deepfakes Defense Dataset
+
+
 This dataset is consisted of five parts, each part includes the face images extracted from each kind of videos, every 50 frames. 
 
 The first part is original-dfvideos-faces, the faces in this part are extracted from original-dfvideos. And original-dfvideos is consisted of the first 100 videos (with IDs 001-100) from each of the four forgery types (Deepfakes, Face2Face, FaceSwap, NeuralTextures) in the FaceForensics++ (FF++) dataset[1]. 

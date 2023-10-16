@@ -2,17 +2,17 @@
 # Adversarial Deepfakes Defense Dataset
 
 
-      This dataset is consisted of five parts, each part includes the face images extracted from each kind of videos, every 50 frames. 
+This dataset is consisted of five parts, each part includes the face images extracted from each kind of videos, every 50 frames. 
 
-      The first part is original-dfvideos-faces, the faces in this part are extracted from original-dfvideos. And original-dfvideos is consisted of the first 100 videos (with IDs 001-100) from each of the four forgery types (Deepfakes, Face2Face, FaceSwap, NeuralTextures) in the FaceForensics++ (FF++) dataset[1]. 
+The first part is original-dfvideos-faces, the faces in this part are extracted from original-dfvideos. And original-dfvideos is consisted of the first 100 videos (with IDs 001-100) from each of the four forgery types (Deepfakes, Face2Face, FaceSwap, NeuralTextures) in the FaceForensics++ (FF++) dataset[1]. 
 
-      The second part is w-adv-dfvideos-XceptionNet-faces, , the faces in this part are extracted from w-adv-dfvideos-XceptionNet. And w-adv-dfvideos-XceptionNet is consisted of the videos generated via white-box attack(Fast Gradient Sign Method in [2]) to videos in original-dfvideos using XceptionNet[3] as victim model.
+The second part is w-adv-dfvideos-XceptionNet-faces, , the faces in this part are extracted from w-adv-dfvideos-XceptionNet. And w-adv-dfvideos-XceptionNet is consisted of the videos generated via white-box attack(Fast Gradient Sign Method in [2]) to videos in original-dfvideos using XceptionNet[3] as victim model.
 
-      The third part is b-adv-dfvideos-XceptionNet-faces, , the faces in this part are extracted from b-adv-dfvideos-XceptionNet. And b-adv-dfvideos-XceptionNet is consisted of the videos generated via black-box attack(Natural Evolutionary Strategies in [2]) to videos in original-dfvideos using XceptionNet[3] as victim model.
+The third part is b-adv-dfvideos-XceptionNet-faces, , the faces in this part are extracted from b-adv-dfvideos-XceptionNet. And b-adv-dfvideos-XceptionNet is consisted of the videos generated via black-box attack(Natural Evolutionary Strategies in [2]) to videos in original-dfvideos using XceptionNet[3] as victim model.
 
-      The fourth part is w-adv-dfvideos-MesoNet-faces, , the faces in this part are extracted from w-adv-dfvideos-MesoNet. And w-adv-dfvideos-MesoNet is consisted of the videos generated via white-box attack(Fast Gradient Sign Method in [2]) to videos in original-dfvideos using MesoNet[4] as victim model.
+The fourth part is w-adv-dfvideos-MesoNet-faces, , the faces in this part are extracted from w-adv-dfvideos-MesoNet. And w-adv-dfvideos-MesoNet is consisted of the videos generated via white-box attack(Fast Gradient Sign Method in [2]) to videos in original-dfvideos using MesoNet[4] as victim model.
    
-      The fifth part is b-adv-dfvideos-MesoNet-faces, , the faces in this part are extracted from b-adv-dfvideos-MesonNet. And b-adv-dfvideos-MesoNet is consisted of the videos generated via black-box attack(Natural Evolutionary Strategies in [2]) to videos in original-dfvideos using MesoNet[4] as victim model.
+The fifth part is b-adv-dfvideos-MesoNet-faces, , the faces in this part are extracted from b-adv-dfvideos-MesonNet. And b-adv-dfvideos-MesoNet is consisted of the videos generated via black-box attack(Natural Evolutionary Strategies in [2]) to videos in original-dfvideos using MesoNet[4] as victim model.
 
 [1] Rossler A, Cozzolino D, Verdoliva L, et al. FaceForensics++: Learning to Detect Manipulated Facial Images[C]//Proceedings of 2019 IEEE/CVF International Conference on Computer Vision. New York: IEEE Press, 2019:1-11.
 
